@@ -5,11 +5,11 @@ octopress-asciinema
 
 Just copy plugin/asciinema.rb to your plugin folder
 
-## Usage:
+## Usage
 
 {% asciinema http://asciinema.org/a/id param:value ... %}
 
-or more simplistic
+or the more simplistic
 
 {% asciinema id %}
 
