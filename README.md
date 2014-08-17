@@ -13,4 +13,4 @@ or more simplistic
 
 {% asciinema id %}
 
-The 'param' name is the simplified name of Asciinema's embed script data-param so 'data-size:big' becomes 'size:big'. Any 'data-param:value' currently supported by Asciinema should be set this way. 
+Params can be set as either data-size:big or just size:big.

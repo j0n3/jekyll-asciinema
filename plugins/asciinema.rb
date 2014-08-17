@@ -7,8 +7,8 @@ module Jekyll
 		def initialize(name, text, token)
 			@asciinema_params = []
 			text.split(" ").each do |t| 
-				caps = t.strip.match(/((\w+):(\d+|\w+))/)
-				@asciinema_params.push([caps.captures[1], caps.captures[2]]) unless caps.nil?
+				caps = t.strip.match(/((data-)?(\w+):(\d+|\w+))/)
+				@asciinema_params.push([caps.captures[2], caps.captures[3]]) unless caps.nil?
 			end
 
 			asciinema_id_match = text.match(/(https?:\/\/asciinema.org\/a\/)?\s?(\d+)/)
