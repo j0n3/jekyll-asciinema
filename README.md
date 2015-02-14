@@ -1,7 +1,7 @@
 octopress-asciinema
 ===================
 
-[Asciinema](http://asciinema.org) plugin for [Octopress](http://octopress.org)
+[Asciinema](http://asciinema.org) plugin for [Jekyll] (http://jekyllrb.com/) based sites like [Octopress](http://octopress.org)
 
 ## Install
 Just copy plugins/asciinema.rb to your plugin folder
